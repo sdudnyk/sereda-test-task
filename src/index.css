@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --site-bg-color: hsla(230, 6%, 8%, 1);
+  --text-color: hsla(350, 100%, 99%, 1);
+  --text-color-shaded: hsla(0, 0%, 47%, 1);
+  --accent-color: hsla(350, 100%, 65%, 1);
+  --accent-color-shaded: hsla(350, 100%, 65%, 0.16);
+
+  --days-in-week: 7;
+  --week-rows-in-month: 6;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--site-bg-color);
+  color: var(--text-color);
 }

@@ -1,0 +1,32 @@
+.month {
+  padding-top: 12px;
+
+  .month__title {
+    font-size: 32px;
+    font-weight: 250;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+
+  .month__body {
+    display: grid;
+    grid-template-columns: repeat(var(--days-in-week), 1fr);
+    grid-template-rows: repeat(var(--week-rows-in-month), 1fr);
+    position: relative;
+
+  }
+
+  .month__day {
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .month__day-names {
+    display: grid;
+    grid-template-columns: repeat(var(--days-in-week), 1fr);
+    margin-bottom: 8px;
+    text-align: center;
+    line-height: 32px;
+    color: var(--text-color-shaded);
+  }
+}

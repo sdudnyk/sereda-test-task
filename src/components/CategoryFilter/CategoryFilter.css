@@ -1,0 +1,10 @@
+.category-filter {
+  display: flex;
+  gap: 24px;
+
+  .category-filter__button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+}

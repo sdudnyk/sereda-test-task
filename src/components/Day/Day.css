@@ -1,0 +1,31 @@
+.day {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  text-align: center;
+  cursor: pointer;
+
+  .day__number {
+    line-height: 34px;
+    color: var(--text-color);
+  }
+
+  .day__number--inactive {
+    color: var(--text-color-shaded);
+    cursor: default;
+  }
+
+  .day__events {
+    height: 6px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .day__event-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+}
+

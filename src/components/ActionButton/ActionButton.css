@@ -1,0 +1,23 @@
+.action-button {
+  background-color: unset;
+  border: none;
+  padding: 8px 16px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+
+  &:disabled {
+    cursor: default;
+  }
+}
+
+.action-button--main {
+  background-color: var(--accent-color);
+  color: var(--site-bg-color);
+}
+
+.action-button--secondary {
+  background-color: var(--site-bg-color);
+  color: var(--accent-color);
+}

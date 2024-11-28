@@ -1,0 +1,6 @@
+.popover {
+  box-shadow: 0 4px 16px 0 hsla(0, 0%, 0%, 0.4);
+  z-index: 1000;
+  pointer-events: auto;
+  background-color: var(--site-bg-color);
+}

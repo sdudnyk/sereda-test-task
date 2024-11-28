@@ -1,0 +1,15 @@
+.category-button {
+  background-color: unset;
+  border: none;
+  padding: 4px 16px;
+  border-radius: 16px;
+  cursor: pointer;
+
+  &:disabled {
+    cursor: default;
+  }
+
+  .category-button--active {
+    color: var(--site-bg-color)
+  }
+}
